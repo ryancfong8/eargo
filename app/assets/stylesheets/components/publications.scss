@@ -1,0 +1,76 @@
+html {
+  background: radial-gradient(#ffffff, #659aa8);
+}
+
+html * {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eargo-title {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1%;
+  width: 50%;
+  justify-content: center;
+}
+
+.eargo-mentions {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.publication-list {
+  width: 50%;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+.publication {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3%;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.publication:hover {
+  background-color: rgba(255,255,255,1);
+  cursor: pointer;
+}
+
+.publication-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.publication-info * {
+  margin-bottom: 2%;
+}
+
+img {
+  margin-right: 10%;
+  border-radius: 3px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 2%;
+}
+
+.attribute {
+  font-weight: bold;
+}
